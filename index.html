@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+<script type='text/javascript'src='/player.js'></script>
+<script src='https://content.jwplatform.com/libraries/KB5zFt7A.js'></script>
+</head>
+<body style="margin: 0; padding: 0;">
+<script> jwplayer.key='XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';</script>
+<div id="player"></div>
+<script type="text/javascript">
+var mt = '//edge-live17-sl';
+var playerInstance=jwplayer("player");
+playerInstance.setup({
+    playlist: [{
+    "title": "ESTAS VIENDO SNT",
+    "description": "GENTV",
+      "sources": [
+        {
+          "default": false,
+          "type": "dash",
+          "file": mt+atob("LmN2YXR0di5jb20uYXIvbGl2ZS9jNGVkcy9TTlRfQzQvU0FfTGl2ZV9kYXNoX2VuYy9TTlRfQzQubXBk"),
+          "drm": {
+            "clearkey": {"keyId": atob("OWY2MWRjY2U4NzFjYzQxYWViMjA2ZDA1MDI4ZmMzMGE="), "key": atob("OWY2MjQ4MTk0YTNiZjVlMzViOTZiMTk0ZTg2MjQ2OTM=")}
+          },
+          "label": "0"
+        }
+      ]
+    }],
+    width: "100%",
+    height: "100%",
+    aspectratio: "16:9",
+    autostart: true,
+    mute: false,
+    cast: {},
+    sharing: {}
+});
+</script>
+</body>
+</html>            
